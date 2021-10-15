@@ -37,32 +37,41 @@ The files created are:
 *** Root key/cert
 
     ca.password
+
     repro_1_root_ca.key (password protected)
+
     repro_1_root_ca.crt
 
 *** Intermediate key/cert
 
     intermediate.password
+
     repro_1_intermediate_ca.key (password protected)
+
     repro_1_intermediate_ca.crt
 
 *** Client certificate
 
     clientcert.crt
+
     clientcert.key (NOT password protected)
 
     clientcert.p12
+
     clientcert.password
 
 *** Server certificate, key- and truststore
 
     repro.local.crt (NOT password protected)
+
     repro.local.key
 
     jetty-keystore.password
+
     jetty-keystore.p12
 
     jetty-trust.password
+
     jetty-trust.p12
 
 ** client requests
